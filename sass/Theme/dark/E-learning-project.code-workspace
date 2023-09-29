@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../elearning 2"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "E-learning-project"
+  }
+}

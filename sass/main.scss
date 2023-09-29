@@ -1,0 +1,37 @@
+@import "./Helpers/variables";
+@import "./Helpers/mixin";
+@import "./Helpers/extend";
+
+//Vendor
+@import "./Base/reset";
+@import "./Base/customize";
+@import "./Base/resetDark";
+
+@import "./Layouts/header";
+@import "./Layouts/footer";
+@import "./Layouts/intro";
+
+@import "./Components/button";
+@import "./Components/cover";
+
+@import "./Pages/home";
+@import "./Layouts/courses";
+@import "./Components/card";
+@import "./Layouts/viewing";
+@import "./Layouts/banner";
+@import "./Layouts/categories";
+@import "./Layouts/students";
+@import "./Layouts/partners";
+@import "./Layouts/job";
+@import "./Layouts/sidebarMini";
+@import "./Theme/dark/sidebarMiniDark";
+@import "./Theme/dark/resetDark";
+@import "./Theme/dark/coursesDark";
+@import "./Theme/dark/resetHeader";
+@import "./Theme/dark/buttonDark";
+@import "./Theme/dark/cardDark";
+@import "./Theme/dark/categoriesDark";
+@import "./Theme/dark/studentsDark";
+@import "./Theme/dark/partnersDark";
+@import "./Theme/dark/jobsDark";
+@import "./Theme/dark/footerDark";

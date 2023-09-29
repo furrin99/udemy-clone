@@ -1,0 +1,20 @@
+.viewing {
+  padding: $pd-3 + 2 0;
+  .viewing__content {
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+  @include responsive("extra-extra-large") {
+    .viewing__content {
+      .card {
+        .card-body {
+          .card-title {
+            @include styleText($color-black-0, $fs-1, $fw-1);
+            margin-bottom: $mg-0 + 5;
+          }
+        }
+      }
+    }
+  }
+}
